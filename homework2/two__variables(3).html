@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+
+        "use strict";
+
+        function getValue(a, b) {
+            if (a >= 0 && b >= 0) {
+                console.log(a - b);
+            } else if (a < 0 && b < 0) {
+                console.log(a * b);
+            } else if (a >= 0 && b < 0 || a < 0 && b >= 0) {
+                console.log(a + b);
+            }
+        }
+
+        getValue(4, 3);
+
+        getValue(-2, -5);
+
+        getValue(5, -7);
+
+    </script>
+</body>
+
+</html>
