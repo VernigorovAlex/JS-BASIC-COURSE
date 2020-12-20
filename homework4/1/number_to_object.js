@@ -3,7 +3,7 @@
 
 /**
  * Функция генерирует случайное число
- * @returns {num} возвращает число и выступает аргументом для функции getDigitsToObject(num)
+ * @returns {number} возвращает число и выступает аргументом для функции getDigitsToObject(num)
  */
 function getRandomNumber() {
     return Math.floor(Math.random() * 999);
@@ -11,7 +11,7 @@ function getRandomNumber() {
 
 /**
  * Функция проверяет условие, в зависимости от исхода возвращает либо пустой объект, либо объект поделенный на единицы, десятки, сотни.
- * @param {num} getRandomNumber()  параметром выступает число, которое генерируется в функции getRandomNumber
+ * @param {number} num  параметром выступает число, которое генерируется в функции getRandomNumber
  * @return {object} units, tens, hundreds; 
  */
 function getDigitsToObject(num) {
